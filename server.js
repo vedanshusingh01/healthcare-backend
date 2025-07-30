@@ -13,7 +13,7 @@ const app = express();
 // Middleware
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://main--your-actual-netlify-site.netlify.app'] // Replace with your actual Netlify URL
+    ? ['https://health-front.netlify.app/login'] // Replace with your actual Netlify URL
     : ['http://localhost:3000'],
   credentials: true
 }));
